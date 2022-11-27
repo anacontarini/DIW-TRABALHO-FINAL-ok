@@ -1,0 +1,148 @@
+/*MENU*************************************************/
+
+.logo {
+    border-radius: 50rem;
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+}
+
+.retornar{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    background-color: #58617c;
+    padding: 6px;
+    text-decoration: none;
+}
+
+header {
+    height: 100px;
+    color: light;
+    background-color: rgb(91, 123, 151);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(123, 146, 167);
+    font-size: x-large;
+}
+
+.menu-principal>ul>li {
+    display: inline-block;
+    padding: 8px;
+    margin-right: 100px;
+    color: black;
+}
+
+.menu-principal>ul>li:hover {
+    background-color: rgb(152, 179, 204);
+    border-radius: 10px;
+}
+
+#divBusca {
+    background-color: #E0EEEE;
+    border: solid 2px #58617c;
+    border-radius: 10px;
+    width: 300px;
+    height: 35px;
+    margin-right: 40px;
+}
+
+#txtBusca {
+    float: right;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
+}
+
+#btnBusca {
+    float: right;
+    background-color: #58617c;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
+    color: black;
+}
+
+/*CONTEÚDO*********************************************/
+
+.identificacao {
+    text-align: center;
+    padding: 30px;
+    height: auto;
+    margin-bottom: 0;
+    background-color: rgb(91, 123, 151);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: dashed;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 15px;
+}
+
+.site {
+    background-color: rgb(152, 179, 204);
+    height: max-content;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin: 70px;
+
+}
+
+.card-body:hover {
+    background-color: rgb(152, 179, 204);
+}
+
+.card-body{
+    background-color: rgb(125, 150, 83);
+}
+
+.card-body>a{
+    background-color: rgb(84, 100, 55);
+}
+
+hr{
+    font-weight: bold;
+}
+
+/*RODAPÉ***********************************************/
+
+footer{
+    text-align: center;
+    padding: 30px;
+    height: auto;
+    margin-bottom: 0;
+    background-color: rgb(91, 123, 151);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: dashed;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+/*RESPONSIVIDADE***************************************/
+
+@media screen and (max-width: 480px) {
+
+    .menu-principal {
+        display: block;
+        padding: 10px;
+        height: max-content;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        display: block;
+        padding: 10px 0px;
+    }
+}
